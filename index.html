@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>memory</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+
+
+
+
+
+</head>
+
+<body>
+  <h1 id="level-title">M E M O R Y</h1>
+
+
+
+  <div class="container">
+    <div lass="row">
+
+
+
+      <button onclick="gotoLink(this)" value="./public/single/index.html" id="one" class="btn blue"><h2 class="content one">1</h2></button>
+
+    </div>
+
+    <div lass="row">
+
+      <button onclick="gotoLink(this)" value="./public/two/index.html" id="two" class="btn blue"><h2 class="content one">2</h2></button>
+
+    </div>
+  </div>
+
+  <h4 id="level-score">1 or 2 player</h4>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="index.js" charset="utf-8"></script>
+
+<script>
+  function gotoLink(link){
+    location.href=link.value;
+  }
+</script>
+
+</body>
+
+</html>
